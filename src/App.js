@@ -29,6 +29,9 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
         </header>
+        <div>
+
+        </div>
         {this.state.movies.map(movie => (
             <Movie key={movie.id} movie={movie}/>
           ))}
