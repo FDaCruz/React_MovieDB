@@ -21,6 +21,8 @@ module.exports = {
   extends: "airbnb",
   rules: {
     "react/jsx-filename-extension": 0,
-    "function-paren-newline": 0
+    "function-paren-newline": 0,
+    // "linebreak-style": ["error", "windows"],
+    "linebreak-style": 0,
   }
 };
